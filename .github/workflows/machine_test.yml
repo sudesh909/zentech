@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AKIAX63XDOBLQCMEHSXO }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.'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' }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.m8KP1q7CU4RT5u9P3ssGDnfgTc98b+zC0uafntPK }}
       AWS_DEFAULT_REGION: ${{ secrets.N.Virginia }}
     steps:
         - uses: actions/checkout@main
